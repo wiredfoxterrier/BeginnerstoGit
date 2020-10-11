@@ -16,7 +16,10 @@ str1 = ''' This is a multi-line string
 So the string will keep on going 
 as long as I keep typing in it '''
 print(str1)
-
+#This creates a templete so that you can display name without any hassle
+str1 = "Ansh"
+temp1 = f" Hi {str1}, How are you?"
+print(temp1)
 print("%s to the right "%('This is a string'))
 
 print("This is a print statement 1",end = "")
